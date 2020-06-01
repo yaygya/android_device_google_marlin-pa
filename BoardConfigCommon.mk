@@ -219,7 +219,3 @@ AB_OTA_PARTITIONS += \
 TARGET_RECOVERY_WIPE := device/google/marlin/recovery.wipe.common
 
 BUILD_BROKEN_PHONY_TARGETS := true
-
-# Disable EAP proxy.
-DISABLE_EAP_PROXY := true
-
