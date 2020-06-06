@@ -130,10 +130,6 @@ TARGET_KERNEL_CLANG_COMPILE := true
 # TARGET_KERNEL_CLANG_VERSION := $(shell grep -v based prebuilts/clang/host/$(HOST_OS)-x86/*/AndroidVersion.txt | sort | tail -n 1 | cut -d : -f 2)
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 
-# Use Snapdragon LLVM, if available
-	
-TARGET_USE_SDCLANG := true
-
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
 
